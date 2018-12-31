@@ -6,6 +6,20 @@
       "image": "montmirail/complex-client",
       "hostname": "client",
       "essential": false
+    }, {
+      "name": "server",
+      "image": "montmirail/complex-server",
+      "hostname": "api",
+      "essential": false
+    }, {
+      "name": "worker",
+      "image": "montmirail/complex-worker",
+      "hostname": "worker",
+      "essential": false
+    }, {
+      "name": "nginx",
+      "image": "montmirail/complex-nginx",
+      "essential": true
     }
   ]
 }

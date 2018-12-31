@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "client",
+      "image": "montmirail/complex-client",
+      "hostname": "client",
+      "essential": false
+    }
+  ]
+}
